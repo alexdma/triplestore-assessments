@@ -1,23 +1,22 @@
 
 == allegrograph ==
 
-homepage
+homepage::allegrograph_homepage
 
-https://franz.com/agraph/allegrograph/
+@misc{allegrograph_homepage,
+title={AllegroGraph Homepage}
+url={https://franz.com/agraph/allegrograph/}
+}
 
 
-M1::Free for less than 5 million triples. Paying options beyond that.::2
-
-https://franz.com/agraph/allegrograph/ag_commercial_edition.lhtml
-
-F1_1::Loads RDF in various serialisations::5
+F1_1::Loads RDF in various serialisations::5::allegrograph_load_doc
 
 @misc{allegrograph_load_doc,
 title={AllegroGraph Documentation on Imporing Datat},
 url={https://franz.com/agraph/support/documentation/current/agload.html}
 }
 
-F1_2::SPARQL 1.1 query and protocol support::3
+F1_2::SPARQL 1.1 query and protocol support::3::allegrograph_sparql_support
 
 @misc{allegrograph_sparql_support,
 title={AllegroGraph SPARQL Support},
@@ -26,15 +25,21 @@ url={https://franz.com/agraph/support/documentation/current/sparql-reference.htm
 
 F1_3::Update queries available, but no endpoint provided::2::allegrograph_sparql_support
 
-F2_1::Solr indexing with search function from SPARQL::5
+F2_1::Solr indexing with search function from SPARQL::5::allegrograph_text_index
 
-https://franz.com/agraph/support/documentation/6.4.1/text-index.html
+@misc{allegrograph_text_index,
+title={AllegroGraph Text Index},
+url={https://franz.com/agraph/support/documentation/6.4.1/text-index.html}
+}
 
-F2_2::GeoSpatial data is supported, but ambiguous as to whether it is full GeoSparql::3
+F2_2::GeoSpatial data is supported, but ambiguous as to whether it is full GeoSparql::3::allegrograph_webinar_22-09
 
-https://franz.com/agraph/services/conferences_seminars/Franz_webinar_1-22-09.pdf
+@misc{allegrograph_webinar_22-09,
+title={AllegroGraph webinar 22-09},
+utl={https://franz.com/agraph/services/conferences_seminars/Franz_webinar_1-22-09.pdf}
+}
 
-F2_3::Can federate stores, but not through SPARQL SERVICE::2
+F2_3::Can federate stores, but not through SPARQL SERVICE::2::allegrograph_introduction
 
 @misc{allegrograph_introduction,
 title={Introduction to AllegroGraph},
@@ -43,48 +48,141 @@ url={https://franz.com/agraph/support/documentation/current/agraph-introduction.
 
 F2_4::Background federation of stores provide scalability and is automatic::3::allegrograph_introduction
 
+F2_5::Native support for RDF++ reasoning::5::allegrograph_reasoner_tutorial
 
-F2_5::Native support for RDF++ reasoning::5
+@misc{allegrograph_reasoner_tutorial,
+title={AllegroGraph Reasoner Tutorial},
+url={https://franz.com/agraph/support/documentation/current/reasoner-tutorial.html}
+}
 
-https://franz.com/agraph/support/documentation/current/reasoner-tutorial.html
+F2_6::Some support for a subset of OWL constructs::4::allegrograph_has_value_tutorial
 
-F2_6::Some support for a subset of OWL constructs::4
-
-https://franz.com/agraph/support/documentation/current/has-value-tutorial.html
+@misc{allegrograph_has_value_tutorial,
+title={Allegrograph Has Value Tutorial},
+url={https://franz.com/agraph/support/documentation/current/has-value-tutorial.html}
+}
 
 F2_7::No support for description logic reasoning::0::allegrograph_introduction
 
-F2_8::Support for SPIN rules::5
+F2_8::Support for SPIN rules::5::allegrograph_spin
 
-https://franz.com/agraph/support/documentation/current/spin.html
+@misc{allegrograph_spin,
+title={AllegroGraph Spin Support},
+url={https://franz.com/agraph/support/documentation/current/spin.html}
+}
 
-F2_9::Support for SHACL::5
+F2_9::Support for SHACL::5::allegrograph_shacl
 
-https://franz.com/agraph/support/documentation/current/shacl.html
+@misc{allegrograph_shacl,
+title={Allegrograph Shacl Support},
+url={https://franz.com/agraph/support/documentation/current/shacl.html}
+}
 
 F2_12::No support for named entity recognition::0::allegrograph_introduction
 
 F2_14::Support for JSON, JSONLines and CSV::3::allegrograph_load_doc
 
+F3_1::Encryption mostly handled outside the system::1
 
-https://franz.com/agraph/support/documentation/current/security.html
+@misc{allegrograph_security_overview,
+title={AllegroGraph Security Overview},
+url={https://franz.com/agraph/support/documentation/current/security-overview.html}
+}
 
-amazon_neptune
-apache_jena
-blazegraph
-graphdb
-marklogic
-rdf4j
-redland
-stardog
-virtuoso
-apache_marmotta
-apache_rya
-graphd
-mulgara
-nitrosbase
+F3_2::Role-based access control enabled for high-level permissions::3::allegrograph_security
+
+@misc{allegrograph_security,
+title={AllegroGraph Security Features},
+url={https://franz.com/agraph/support/documentation/current/security.html}
+}
+
+F3_3::Attribute-based access control not enabled::0::allegrograph_security
+
+F3_4::No mention of quotas to manage performance::0::allegrograph_performance_tuning
+
+@misc{allegrograph_performance_tuning,
+title={AllegroGraph Performance Tuning},
+url={https://franz.com/agraph/allegrograph/agraph_performance_tuning.lhtml}
+}
+
+P1_6::Reasonable results with LUBM::3::allegrograph_benchmark_LUBM
+
+@misc{allegrograph_benchmark_LUBM,
+title={AllegroGraph Benchmark Lubm},
+url={https://franz.com/agraph/allegrograph/agraph_bench_lubm.lhtml}
+}
+
+P2_1::Several minutes for loading a few millions triples::2::allegrograph_performance_tuning
+
+P3_3::Between half a GB to 3.6GB with datasets of 7M and 44M triples::2::allegrograph_performance_tuning
+
+P4_2::ACID transactions with rollback provided::5::allegrograph_introduction
+
+P4_3::Limited capability to scale vertically::2::allegrograph_performance_tuning
+
+P4_4::Ability to federate multiple stores::4::allegrograph_introduction
+
+M1_1::Free for under 5M triples::3::allegrograph_comercial_edition
+
+@misc{allegrograph_comercial_edition,
+title={AllegroGraph Comercial Edition},
+url={https://franz.com/agraph/allegrograph/ag_commercial_edition.lhtml}
+}
+
+M1_2::Commercial licence::0::allegrograph_license
+
+@misc{allegrograph_license,
+title={AllegroGraph License},
+url={https://franz.com/agraph/allegrograph/license.pdf}
+}
+
+M3_3::New versions appear every few months::5::allegrograph_change_history
+
+@misc{allegrograph_change_history,
+title={AllegroGraph Change History}
+url={https://franz.com/agraph/support/documentation/current/change-history.html}
+}
+
+M3_4::New versions appear every few months::5::allegrograph_change_history
+
+M3_7::Backup facility available::4
+
+@misc{allegrograph_backup,
+title={Allegrograph Backup and Restore},
+url={https://franz.com/agraph/support/documentation/current/backup-and-restore.html}
+}
+
+== amazon_neptune == 
+
+== apache_jena ==
+
+== blazegraph == 
+
+== graphdb ==
+
+== marklogic ==
+
+== rdf4j ==
+
+== redland ==
+
+== stardog ==
+
+== virtuoso == 
+
+== apache_marmotta ==
+
+== apache_rya ==
+
+== graphd ==
+
+== mulgara ==
+
+== nitrosbase == 
 
 == anzograph ==
+
+homepage::anzograph_homepage
 
 @misc{anzograph_homepage,
 title={AnzoGraph Homapage},
@@ -93,12 +191,16 @@ url={https://www.cambridgesemantics.com/anzograph/}
 
 == brightstardb == 
 
+homepage::brightstardb_homepage
+
 @misc{brightstardb_homepage,
 title={BrightStarDB homapage},
 url = {http://brightstardb.com/}
 }
 
 == corese == 
+
+homepage::corese_homepage
 
 @misc{corese_homepage,
 title={Corese Homepage},
@@ -108,12 +210,16 @@ utl = {https://project.inria.fr/corese/}
 
 == ibm_db2 == 
 
+homepage::ibm_db2_homepage
+
 @misc{ibm_db2_homepage,
 title={IBM DB2 homepage},
 url={https://www.ibm.com/products/db2-database}
 }
 
 == neo4j == 
+
+homepage::neo4j_homepage
 
 @misc{neo4j_homepage,
 title={Neo4J homepage},
@@ -122,16 +228,19 @@ url={https://neo4j.com/}
 
 == 4store ==
 
+== cubicweb == 
 
+== dydra ==
 
-cubicweb
-dydra
-redstore
-sparkledb
-strabon
-fabric
+== redstore ==
 
-== benchmark papers == 
+== sparkledb ==
+
+== strabon ==
+
+== fabric == 
+
+** benchmark papers **
 
 @inproceedings{voigt2012yet,
   title={Yet Another Triple Store Benchmark? Practical Experiences with Real-World Data.},
