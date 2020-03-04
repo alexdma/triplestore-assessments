@@ -158,6 +158,121 @@ url={https://franz.com/agraph/support/documentation/current/backup-and-restore.h
 
 == blazegraph == 
 
+homepage::blazegraph_homepage
+
+@misc{blazegraph_homepage,
+title={Blazegraph homepage},
+url={https://blazegraph.com/}
+}
+
+F1_1::Supports many forms of RDF::5::blazegraph_rest_api
+
+@misc{blazegraph_res_api,
+title={Blazegraph REST API},
+url={https://github.com/blazegraph/database/wiki/REST_API}
+}
+
+F1_2::Appears to be SPARQL 1.1 compliant, but no documentation detailing this::4::blazegraph_about
+
+@misc{blazegraph_about,
+title={About Blazegraph},
+url={https://github.com/blazegraph/database/wiki/About_Blazegraph}
+}
+
+F1_3::Compliant with SPARQL Update::5::blazegraph_sparql_update
+
+@misc{blazegraph_sparql_update,
+title={Blazegraph SPARQL Update},
+url={https://github.com/blazegraph/database/wiki/SPARQL_Update}
+}
+
+
+F2_1::Full text search available natively and externally::5::blazegraph_full_text_search
+
+@misc{blazegraph_full_text_search,
+title={Blazegraph Full Text Search},
+url={https://github.com/blazegraph/database/wiki/FullTextSearch}
+}
+
+F2_2::Geospatial query support, but not geosparql::2::blazegraph_geospatial
+
+@misc{blazegraph_geospatial,
+title={Blazegraph GeoSpatial Queries},
+url={https://github.com/blazegraph/database/wiki/GeoSpatial}
+}
+
+F2_3::Compliant with SPARQL 1.1. federated querying, but with disclaimers and specific tricks associated with efficiency::4::blazegraph_federated
+
+@misc{blazegraph_federated,
+title={Blazegraph Federated Query},
+url={https://github.com/blazegraph/database/wiki/FederatedQuery}
+}
+
+F2_4::No mention of automatic federation::0::blazegraph_federated
+
+F2_5::Ability to configure for inference on RDF Entailments, but not greatly documented::4::blazegraph_inference
+
+@misc{blazegraph_inference,
+title={Blazegraph Inference and Truth Maintenance},
+url={https://github.com/blazegraph/database/wiki/InferenceAndTruthMaintenance}
+}
+
+F2_6::Ablility to configure triple store for basic OWL reasoning, but not greatly documented and not real OWL profile::3::blazegraph_inference
+
+F2_7::OWL Axions supported very limited. Unclear ability to connect to external DL reasoner::1::blazegraph_inference
+
+F2_8::Ablility to configure triple store to apply custom inference rules, but not greatly documented::4::blazegraph_inference
+
+F2_9::No mention of validation in documentation::0::blazegraph_documentation
+
+@misc{blazegraph_documentation,
+title={Blazegraph Documentation},
+url={https://github.com/blazegraph/database/wiki}
+}
+
+F2_12::No mention of NER in documentation::0::blazegraph_documentation
+
+F2_14::Can ingest graph data but no mention of others::1::blazegraph_res_api
+
+F3_1::Security in blazegraph is handled outside of the system::0::blazegraph_security_models
+
+@misc{blazegraph_security_models,
+title={Security models in Blazegraph},
+url={https://blog.blazegraph.com/?p=307}
+}
+
+F3_2::Security in blazegraph is handled outside of the system::0::blazegraph_security_models
+
+F3_3::Security in blazegraph is handled outside of the system::0::blazegraph_security_models
+
+F3_4::Security in blazegraph is handled outside of the system::0::blazegraph_security_models
+
+P4_2::Transaction mechanism, but not enabled by default and complex::3::blazegraph_transactions
+
+@misc{blazegraph_transactions,
+title={Blazegraph transactions},
+url={https://github.com/blazegraph/database/wiki/TxGuide}
+}
+
+M1_1::Blazegraph is open source and free::5::blazegraph_licence
+
+@misc{blazegraph_licence,
+title={Blazegraph Licence},
+url={https://github.com/blazegraph/database/blob/master/LICENSE.txt}
+}
+
+
+M1_2::Distributed under GPL V2 licence::2::blazegraph_licence
+
+M3_3::Last update 1 year ago::2::blazegraph_github
+
+@misc{blazegraph_github,
+title={Blazegraph githup repository},
+url={https://github.com/blazegraph/database}
+}
+
+M3_4::Last update 1 year ago::2::blazegraph_github
+
 == graphdb ==
 
 == marklogic ==
@@ -270,5 +385,7 @@ url={https://neo4j.com/}
 }
 
 
-
+on scaling:
+http://ceur-ws.org/Vol-1795/paper14.pdf
+https://users.elis.ugent.be/~drdwitte/SWJ_Rev1_Final.pdf
 
