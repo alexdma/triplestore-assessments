@@ -1,0 +1,160 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_backup> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Allegrograph Backup and Restore" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_benchmark_LUBM> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Benchmark Lubm" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_change_history> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Change History" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_comercial_edition> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Comercial Edition" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_has_value_tutorial> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Allegrograph Has Value Tutorial" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_introduction> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Introduction to AllegroGraph" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_license> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph License" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_load_doc> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Documentation on Imporing Datat" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Performance Tuning" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_reasoner_tutorial> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Reasoner Tutorial" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_security> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Security Features" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_security_overview> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Security Overview" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_shacl> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Allegrograph Shacl Support" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_sparql_support> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph SPARQL Support" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_spin> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Spin Support" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_text_index> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph Text Index" .
+
+<http://datascienceinstitute.ie/asio/bib/allegrograph_webinar_22-09> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AllegroGraph webinar 22-09" .
+
+<http://datascienceinstitute.ie/asio/bib/anzograph_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "AnzoGraph Homapage" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_about> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "About Blazegraph" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_documentation> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph Documentation" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_federated> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph Federated Query" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_full_text_search> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph Full Text Search" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_geospatial> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph GeoSpatial Queries" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_github> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph githup repository" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_inference> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph Inference and Truth Maintenance" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_licence> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph Licence" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_res_api> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph REST API" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_security_models> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Security models in Blazegraph" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_sparql_update> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph SPARQL Update" .
+
+<http://datascienceinstitute.ie/asio/bib/blazegraph_transactions> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Blazegraph transactions" .
+
+<http://datascienceinstitute.ie/asio/bib/brightstardb_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "BrightStarDB homapage" .
+
+<http://datascienceinstitute.ie/asio/bib/corese_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Corese Homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/ibm_db2_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "IBM DB2 homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/morsey2011dbpedia> a ns1:BibliographicResource ;
+    ns1:title "DBpedia SPARQL benchmark--performance assessment with real queries on real data" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/rohloff2007evaluation> a ns1:BibliographicResource ;
+    ns1:title "An evaluation of triple-store technologies for large data stores" .
+
+<http://datascienceinstitute.ie/asio/bib/voigt2012yet> a ns1:BibliographicResource ;
+    ns1:title "Yet Another Triple Store Benchmark? Practical Experiences with Real-World Data." .
+
+

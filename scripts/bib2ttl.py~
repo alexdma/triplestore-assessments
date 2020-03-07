@@ -1,0 +1,18 @@
+from pybtex.database.input import bibtex
+from pybtex.database import BibliographyData
+import sys
+
+if len(sys.argv) != 1:
+    print("provide name of bib file to process").
+    quit()
+
+filename = sys.argv[1]
+
+parser = bibtex.Parser()
+bib_data = parser.parse_file(filename)
+
+for key in bib_data.entries:
+    # record at least title, type, and url
+    print(key)
+
+
