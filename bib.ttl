@@ -154,6 +154,78 @@
 <http://datascienceinstitute.ie/asio/bib/rohloff2007evaluation> a ns1:BibliographicResource ;
     ns1:title "An evaluation of triple-store technologies for large data stores" .
 
+<http://datascienceinstitute.ie/asio/bib/virtuoso_bulk_loading> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso bul loading" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_config> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso config" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_content_types> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso document and types supported" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_faq_fed> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso FAQ on federation" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_fulltext_search> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso full text search" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_geo> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso Geospatial data" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_github> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso github" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_opensource_licence> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso Open Source licence" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_pricing> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso Pricing" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_reasoning> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso reasoning" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_security> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso security" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_shacl> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso support of SHACL" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_sparql_examples> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Examples of SPARQL 1.1. features in Virtuoso" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_sparql_fed> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso SPARQL-FED" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_sparql_update_examples> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso SPARQL update examples" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_spin> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Example of using SPIN in virtuoso" .
+
+<http://datascienceinstitute.ie/asio/bib/virtuoso_transactions> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Virtuoso transactions" .
+
 <http://datascienceinstitute.ie/asio/bib/voigt2012yet> a ns1:BibliographicResource ;
     ns1:title "Yet Another Triple Store Benchmark? Practical Experiences with Real-World Data." .
 
