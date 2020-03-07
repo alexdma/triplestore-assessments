@@ -1,8 +1,0 @@
-import sys
-from rdflib import Graph, Literal, RDF, URIRef
-from rdflib.namespace import DC, FOAF
-
-if len(sys.argv) != 2:
-    print("provide name of bib with assessment file to process")
-    quit()
-
