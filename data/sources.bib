@@ -156,6 +156,135 @@ url={https://franz.com/agraph/support/documentation/current/backup-and-restore.h
 
 == apache_jena ==
 
+homepage::jena_homepage
+
+@misc{jena_homepage,
+title={Jena Homepage},
+url={https://jena.apache.org/}
+}
+
+F1_1::Supports a large number of serialisations::5::jena_reading_writing
+
+@misc{jena_reading_writing,
+title={Jena reading and writing RDF},
+url={https://jena.apache.org/documentation/io/}
+}
+
+F1_2::Sparql 1.1. query language supported and endpoint through Fuseki. No comment on level of compliance::4::jena_arq
+
+@misc{jena_arq,
+title={Jena ARQ},
+url={https://jena.apache.org/documentation/query/index.html}
+}
+
+F1_3::SPARQL update compliance through ARQ and update endpoint in Fuseki::5::jena_update
+
+@misc{jena_update,
+title={Jena ARQ update},
+url={https://jena.apache.org/documentation/query/update.html}
+}
+
+F2_1::Full text search enabled through lucene, solr or elasticsearch on specified fields::4::jena_fulltextsearch
+
+@misc{jena_fulltextsearch,
+title={Full text search in Jena},
+url={https://jena.apache.org/documentation/query/text-query.html}
+}
+
+F2_2::Geosparql implemented and available with Fuseki::5::jena_geosparql
+
+@misc{jena_geosparql,
+title={Jena GeoSPARQL},
+url={https://jena.apache.org/documentation/geosparql/index.html}
+}
+
+F2_3::Supports service clause with performance considerations::4::jena_service
+
+@misc{jena_service,
+title={Jena Federated Query},
+url={https://jena.apache.org/documentation/query/service.html}
+}
+
+F2_4::No mention in the documentation of automatic federation mechanism::0::jena_service
+
+F2_5::RDFS reasoning provided through built-in model::5::jena_inference
+
+@misc{jena_inference,
+title={Jena inference},
+url={https://jena.apache.org/documentation/inference/}
+}
+
+F2_6::Basic OWL reasoning provided through built-in model, not being clear on which profile is supported::4::jena_inference
+
+F2_7::Ability to plugin an external DL reasoner::3::jena_inference
+
+F2_8::Custom inference rules can be implemented in specific language::4::jena_inference
+
+F2_9::Supports SHACL::5::jena_shacl
+
+@misc{jena_shacl,
+title={Jena SHACL},
+url={https://jena.apache.org/documentation/shacl/index.html}
+}
+
+F2_12::No mention of named entity recognition in the documentation::0::jena_homepage
+
+F2_14::Supports CSV property tables but not other formats::1::jena_csv_pt
+
+@misc{jena_csv_pt,
+title={Jena CSV PT},
+url={https://jena.apache.org/documentation/csv/get_started.html}
+}
+
+F3_1::Fuseki security is provided through Apache Shiro, which supports encryption::3::jena_fuseki_security
+
+@misc{jena_fuseki_security,
+title={Jena fuseki security},
+url={https://jena.apache.org/documentation/fuseki2/fuseki-security.html}
+}
+
+F3_2::Provides access control down to graph level with access control lists::4::jena_acl
+
+@misc{jena_acl,
+title={Jena access control},
+url={https://jena.apache.org/documentation/fuseki2/data-access-control}
+}
+
+F3_3::No mention of attribute-based access control in documentation::0::jena_acl
+
+F3_4::No mention of quotas in documentation::0::jena_doc
+
+@misc{jena_doc,
+title={Jena documentation overview},
+url={https://jena.apache.org/documentation/}
+}
+
+P4_2::Transaction mechanism provided through API::4::jena_transactions
+
+@misc{jena_transactions,
+title={Jena transactions},
+url={https://jena.apache.org/documentation/txn/}
+}
+
+M1_1::Jena is free::5::jena_homepage
+
+M1_2::Jena is under the Apache Licence::4::jena_licence
+
+@misc{jena_licence,
+title={Jena Licence},
+url={https://github.com/apache/jena/blob/master/LICENSE}
+}
+
+M3_3::Updated a few days ago::5::jena_github
+
+@misc{jena_github,
+title={Jena Github},
+url={https://github.com/apache/jena/}
+}
+
+M3_4::Updated a few days ago::5::jena_github
+
+
 == blazegraph == 
 
 homepage::blazegraph_homepage
@@ -423,8 +552,6 @@ url={https://github.com/openlink/virtuoso-opensource}
 }
 
 M3_4::Last update of open source edition a few weeks ago::5::virtuoso_github
-
-
 
 == apache_marmotta ==
 

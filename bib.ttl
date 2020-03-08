@@ -144,6 +144,70 @@
     ns1:source <https://test.com> ;
     ns1:title "IBM DB2 homepage" .
 
+<http://datascienceinstitute.ie/asio/bib/jena_acl> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena access control" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_arq> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena ARQ" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_csv_pt> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena CSV PT" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_doc> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena documentation overview" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_fulltextsearch> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Full text search in Jena" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_fuseki_security> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena fuseki security" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_geosparql> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena GeoSPARQL" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_github> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena Github" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena Homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_inference> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena inference" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_licence> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena Licence" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_reading_writing> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena reading and writing RDF" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_service> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena Federated Query" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_shacl> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena SHACL" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_transactions> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena transactions" .
+
+<http://datascienceinstitute.ie/asio/bib/jena_update> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Jena ARQ update" .
+
 <http://datascienceinstitute.ie/asio/bib/morsey2011dbpedia> a ns1:BibliographicResource ;
     ns1:title "DBpedia SPARQL benchmark--performance assessment with real queries on real data" .
 

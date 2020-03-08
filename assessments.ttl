@@ -1,6 +1,6 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://www.w3.org/ns/prov#> .
 @prefix ns2: <http://datascienceinstitute.ie/asio/schema#> .
-@prefix ns3: <http://www.w3.org/ns/prov#> .
+@prefix ns3: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,577 +9,761 @@
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F1_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_1> ;
     ns2:value 5 ;
-    ns1:description "Loads RDF in various serialisations" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_load_doc
+    ns3:description "Loads RDF in various serialisations" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_load_doc
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F1_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_2> ;
     ns2:value 3 ;
-    ns1:description "SPARQL 1.1 query and protocol support" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_sparql_support
+    ns3:description "SPARQL 1.1 query and protocol support" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_sparql_support
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F1_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_3> ;
     ns2:value 2 ;
-    ns1:description "Update queries available, but no endpoint provided" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_sparql_support
+    ns3:description "Update queries available, but no endpoint provided" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_sparql_support
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_1> ;
     ns2:value 5 ;
-    ns1:description "Solr indexing with search function from SPARQL" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_text_index
+    ns3:description "Solr indexing with search function from SPARQL" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_text_index
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_12> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_12> ;
     ns2:value 0 ;
-    ns1:description "No support for named entity recognition" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
+    ns3:description "No support for named entity recognition" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_14> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_14> ;
     ns2:value 3 ;
-    ns1:description "Support for JSON, JSONLines and CSV" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_load_doc
+    ns3:description "Support for JSON, JSONLines and CSV" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_load_doc
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_2> ;
     ns2:value 3 ;
-    ns1:description "GeoSpatial data is supported, but ambiguous as to whether it is full GeoSparql" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_webinar_22-09
+    ns3:description "GeoSpatial data is supported, but ambiguous as to whether it is full GeoSparql" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_webinar_22-09
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_3> ;
     ns2:value 2 ;
-    ns1:description "Can federate stores, but not through SPARQL SERVICE" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
+    ns3:description "Can federate stores, but not through SPARQL SERVICE" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_4> ;
     ns2:value 3 ;
-    ns1:description "Background federation of stores provide scalability and is automatic" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
+    ns3:description "Background federation of stores provide scalability and is automatic" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_5> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_5> ;
     ns2:value 5 ;
-    ns1:description "Native support for RDF++ reasoning" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_reasoner_tutorial
+    ns3:description "Native support for RDF++ reasoning" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_reasoner_tutorial
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_6> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_6> ;
     ns2:value 4 ;
-    ns1:description "Some support for a subset of OWL constructs" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_has_value_tutorial
+    ns3:description "Some support for a subset of OWL constructs" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_has_value_tutorial
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_7> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_7> ;
     ns2:value 0 ;
-    ns1:description "No support for description logic reasoning" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
+    ns3:description "No support for description logic reasoning" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_8> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_8> ;
     ns2:value 5 ;
-    ns1:description "Support for SPIN rules" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_spin
+    ns3:description "Support for SPIN rules" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_spin
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F2_9> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_9> ;
     ns2:value 5 ;
-    ns1:description "Support for SHACL" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_shacl
+    ns3:description "Support for SHACL" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_shacl
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F3_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_2> ;
     ns2:value 3 ;
-    ns1:description "Role-based access control enabled for high-level permissions" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_security
+    ns3:description "Role-based access control enabled for high-level permissions" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_security
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F3_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_3> ;
     ns2:value 0 ;
-    ns1:description "Attribute-based access control not enabled" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_security
+    ns3:description "Attribute-based access control not enabled" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_security
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_F3_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_4> ;
     ns2:value 0 ;
-    ns1:description "No mention of quotas to manage performance" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning
+    ns3:description "No mention of quotas to manage performance" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_M1_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_1> ;
     ns2:value 3 ;
-    ns1:description "Free for under 5M triples" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_comercial_edition
+    ns3:description "Free for under 5M triples" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_comercial_edition
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_M1_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_2> ;
     ns2:value 0 ;
-    ns1:description "Commercial licence" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_license
+    ns3:description "Commercial licence" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_license
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_M3_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_3> ;
     ns2:value 5 ;
-    ns1:description "New versions appear every few months" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_change_history
+    ns3:description "New versions appear every few months" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_change_history
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_M3_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_4> ;
     ns2:value 5 ;
-    ns1:description "New versions appear every few months" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_change_history
+    ns3:description "New versions appear every few months" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_change_history
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_P1_6> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_6> ;
     ns2:value 3 ;
-    ns1:description "Reasonable results with LUBM" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_benchmark_LUBM
+    ns3:description "Reasonable results with LUBM" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_benchmark_LUBM
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_P2_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P2_1> ;
     ns2:value 2 ;
-    ns1:description "Several minutes for loading a few millions triples" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning
+    ns3:description "Several minutes for loading a few millions triples" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_P3_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P3_3> ;
     ns2:value 2 ;
-    ns1:description "Between half a GB to 3.6GB with datasets of 7M and 44M triples" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning
+    ns3:description "Between half a GB to 3.6GB with datasets of 7M and 44M triples" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_P4_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
     ns2:value 5 ;
-    ns1:description "ACID transactions with rollback provided" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
+    ns3:description "ACID transactions with rollback provided" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_P4_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_3> ;
     ns2:value 2 ;
-    ns1:description "Limited capability to scale vertically" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning
+    ns3:description "Limited capability to scale vertically" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_P4_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_4> ;
     ns2:value 4 ;
-    ns1:description "Ability to federate multiple stores" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
+    ns3:description "Ability to federate multiple stores" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_1> ;
+    ns2:value 5 ;
+    ns3:description "Supports a large number of serialisations" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_reading_writing
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_2> ;
+    ns2:value 4 ;
+    ns3:description "Sparql 1.1. query language supported and endpoint through Fuseki. No comment on level of compliance" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_arq
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_3> ;
+    ns2:value 5 ;
+    ns3:description "SPARQL update compliance through ARQ and update endpoint in Fuseki" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_update
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_1> ;
+    ns2:value 4 ;
+    ns3:description "Full text search enabled through lucene, solr or elasticsearch on specified fields" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_fulltextsearch
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_12> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_12> ;
+    ns2:value 0 ;
+    ns3:description "No mention of named entity recognition in the documentation" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_homepage
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_14> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_14> ;
+    ns2:value 1 ;
+    ns3:description "Supports CSV property tables but not other formats" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_csv_pt
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_2> ;
+    ns2:value 5 ;
+    ns3:description "Geosparql implemented and available with Fuseki" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_geosparql
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_3> ;
+    ns2:value 4 ;
+    ns3:description "Supports service clause with performance considerations" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_service
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_4> ;
+    ns2:value 0 ;
+    ns3:description "No mention in the documentation of automatic federation mechanism" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_service
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_5> ;
+    ns2:value 5 ;
+    ns3:description "RDFS reasoning provided through built-in model" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_inference
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_6> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_6> ;
+    ns2:value 4 ;
+    ns3:description "Basic OWL reasoning provided through built-in model, not being clear on which profile is supported" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_inference
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_7> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_7> ;
+    ns2:value 3 ;
+    ns3:description "Ability to plugin an external DL reasoner" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_inference
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_8> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_8> ;
+    ns2:value 4 ;
+    ns3:description "Custom inference rules can be implemented in specific language" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_inference
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F2_9> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_9> ;
+    ns2:value 5 ;
+    ns3:description "Supports SHACL" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_shacl
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F3_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_1> ;
+    ns2:value 3 ;
+    ns3:description "Fuseki security is provided through Apache Shiro, which supports encryption" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_fuseki_security
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F3_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_2> ;
+    ns2:value 4 ;
+    ns3:description "Provides access control down to graph level with access control lists" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_acl
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F3_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_3> ;
+    ns2:value 0 ;
+    ns3:description "No mention of attribute-based access control in documentation" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_acl
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_F3_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_4> ;
+    ns2:value 0 ;
+    ns3:description "No mention of quotas in documentation" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_doc
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_M1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_1> ;
+    ns2:value 5 ;
+    ns3:description "Jena is free" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_homepage
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_M1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_2> ;
+    ns2:value 4 ;
+    ns3:description "Jena is under the Apache Licence" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_licence
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_M3_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_3> ;
+    ns2:value 5 ;
+    ns3:description "Updated a few days ago" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_github
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_M3_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_4> ;
+    ns2:value 5 ;
+    ns3:description "Updated a few days ago" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_github
+> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_P4_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
+    ns2:value 4 ;
+    ns3:description "Transaction mechanism provided through API" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/jena_transactions
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F1_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_1> ;
     ns2:value 5 ;
-    ns1:description "Supports many forms of RDF" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_rest_api
+    ns3:description "Supports many forms of RDF" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_rest_api
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F1_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_2> ;
     ns2:value 4 ;
-    ns1:description "Appears to be SPARQL 1.1 compliant, but no documentation detailing this" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_about
+    ns3:description "Appears to be SPARQL 1.1 compliant, but no documentation detailing this" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_about
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F1_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_3> ;
     ns2:value 5 ;
-    ns1:description "Compliant with SPARQL Update" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_sparql_update
+    ns3:description "Compliant with SPARQL Update" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_sparql_update
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_1> ;
     ns2:value 5 ;
-    ns1:description "Full text search available natively and externally" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_full_text_search
+    ns3:description "Full text search available natively and externally" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_full_text_search
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_12> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_12> ;
     ns2:value 0 ;
-    ns1:description "No mention of NER in documentation" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_documentation
+    ns3:description "No mention of NER in documentation" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_documentation
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_14> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_14> ;
     ns2:value 1 ;
-    ns1:description "Can ingest graph data but no mention of others" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_res_api
+    ns3:description "Can ingest graph data but no mention of others" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_res_api
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_2> ;
     ns2:value 2 ;
-    ns1:description "Geospatial query support, but not geosparql" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_geospatial
+    ns3:description "Geospatial query support, but not geosparql" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_geospatial
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_3> ;
     ns2:value 4 ;
-    ns1:description "Compliant with SPARQL 1.1. federated querying, but with disclaimers and specific tricks associated with efficiency" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_federated
+    ns3:description "Compliant with SPARQL 1.1. federated querying, but with disclaimers and specific tricks associated with efficiency" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_federated
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_4> ;
     ns2:value 0 ;
-    ns1:description "No mention of automatic federation" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_federated
+    ns3:description "No mention of automatic federation" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_federated
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_5> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_5> ;
     ns2:value 4 ;
-    ns1:description "Ability to configure for inference on RDF Entailments, but not greatly documented" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_inference
+    ns3:description "Ability to configure for inference on RDF Entailments, but not greatly documented" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_inference
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_6> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_6> ;
     ns2:value 3 ;
-    ns1:description "Ablility to configure triple store for basic OWL reasoning, but not greatly documented and not real OWL profile" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_inference
+    ns3:description "Ablility to configure triple store for basic OWL reasoning, but not greatly documented and not real OWL profile" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_inference
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_7> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_7> ;
     ns2:value 1 ;
-    ns1:description "OWL Axions supported very limited. Unclear ability to connect to external DL reasoner" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_inference
+    ns3:description "OWL Axions supported very limited. Unclear ability to connect to external DL reasoner" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_inference
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_8> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_8> ;
     ns2:value 4 ;
-    ns1:description "Ablility to configure triple store to apply custom inference rules, but not greatly documented" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_inference
+    ns3:description "Ablility to configure triple store to apply custom inference rules, but not greatly documented" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_inference
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F2_9> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_9> ;
     ns2:value 0 ;
-    ns1:description "No mention of validation in documentation" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_documentation
+    ns3:description "No mention of validation in documentation" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_documentation
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F3_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_1> ;
     ns2:value 0 ;
-    ns1:description "Security in blazegraph is handled outside of the system" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_security_models
+    ns3:description "Security in blazegraph is handled outside of the system" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_security_models
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F3_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_2> ;
     ns2:value 0 ;
-    ns1:description "Security in blazegraph is handled outside of the system" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_security_models
+    ns3:description "Security in blazegraph is handled outside of the system" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_security_models
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F3_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_3> ;
     ns2:value 0 ;
-    ns1:description "Security in blazegraph is handled outside of the system" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_security_models
+    ns3:description "Security in blazegraph is handled outside of the system" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_security_models
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_F3_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_4> ;
     ns2:value 0 ;
-    ns1:description "Security in blazegraph is handled outside of the system" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_security_models
+    ns3:description "Security in blazegraph is handled outside of the system" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_security_models
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_M1_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_1> ;
     ns2:value 5 ;
-    ns1:description "Blazegraph is open source and free" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_licence
+    ns3:description "Blazegraph is open source and free" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_licence
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_M1_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_2> ;
     ns2:value 2 ;
-    ns1:description "Distributed under GPL V2 licence" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_licence
+    ns3:description "Distributed under GPL V2 licence" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_licence
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_M3_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_3> ;
     ns2:value 2 ;
-    ns1:description "Last update 1 year ago" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_github
+    ns3:description "Last update 1 year ago" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_github
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_M3_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_4> ;
     ns2:value 2 ;
-    ns1:description "Last update 1 year ago" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_github
+    ns3:description "Last update 1 year ago" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_github
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_P4_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
     ns2:value 3 ;
-    ns1:description "Transaction mechanism, but not enabled by default and complex" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_transactions
+    ns3:description "Transaction mechanism, but not enabled by default and complex" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_transactions
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F1_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_1> ;
     ns2:value 5 ;
-    ns1:description "Can load various serialisations of RDF" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_bulk_loading
+    ns3:description "Can load various serialisations of RDF" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_bulk_loading
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F1_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_2> ;
     ns2:value 4 ;
-    ns1:description "Appears to be fully compliant with SPARQL 1.1., but not specific comment" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_sparql_examples
+    ns3:description "Appears to be fully compliant with SPARQL 1.1., but not specific comment" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_sparql_examples
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F1_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_3> ;
     ns2:value 5 ;
-    ns1:description "Appears compatible, with examples provided" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_sparql_update_examples
+    ns3:description "Appears compatible, with examples provided" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_sparql_update_examples
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_1> ;
     ns2:value 3 ;
-    ns1:description "provides full text search but on specific fields, with config of the fields to index (not trivial)" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_fulltext_search
+    ns3:description "provides full text search but on specific fields, with config of the fields to index (not trivial)" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_fulltext_search
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_12> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_12> ;
     ns2:value 0 ;
-    ns1:description "No mention of named entity recognition in documentation" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_homepage
+    ns3:description "No mention of named entity recognition in documentation" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_homepage
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_14> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_14> ;
     ns2:value 3 ;
-    ns1:description "Virtuoso supports CSV. Can also import relational databases through R2RML" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_content_types
+    ns3:description "Virtuoso supports CSV. Can also import relational databases through R2RML" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_content_types
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_2> ;
     ns2:value 4 ;
-    ns1:description "Geospatial data and query with partial compatibility with geosparql" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_geo
+    ns3:description "Geospatial data and query with partial compatibility with geosparql" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_geo
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_3> ;
     ns2:value 3 ;
-    ns1:description "SPARQL-FED supported but not really commented on" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_sparql_fed
+    ns3:description "SPARQL-FED supported but not really commented on" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_sparql_fed
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_4> ;
     ns2:value 1 ;
-    ns1:description "No apparent support for automatic federation, but clustering is possible" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_faq_fed
+    ns3:description "No apparent support for automatic federation, but clustering is possible" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_faq_fed
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_5> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_5> ;
     ns2:value 3 ;
-    ns1:description "RDF entailments through custom rules, although badly documented" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/
+    ns3:description "RDF entailments through custom rules, although badly documented" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_7> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_7> ;
     ns2:value 0 ;
-    ns1:description "No OWL DL support" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_reasoning
+    ns3:description "No OWL DL support" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_reasoning
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_8> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_8> ;
     ns2:value 4 ;
-    ns1:description "Support for SPIN rules" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_spin
+    ns3:description "Support for SPIN rules" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_spin
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F2_9> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_9> ;
     ns2:value 1 ;
-    ns1:description "No support of SHACL or other validation methods, other than through SPIN rules" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_shacl
+    ns3:description "No support of SHACL or other validation methods, other than through SPIN rules" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_shacl
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F3_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_1> ;
     ns2:value 0 ;
-    ns1:description "No mention of encryption in documentation" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_security
+    ns3:description "No mention of encryption in documentation" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_security
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F3_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_2> ;
     ns2:value 4 ;
-    ns1:description "Role based access control available at quad-store or graph levels" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_security
+    ns3:description "Role based access control available at quad-store or graph levels" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_security
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F3_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_3> ;
     ns2:value 0 ;
-    ns1:description "No mention of attribute-based access control in documentation" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_security
+    ns3:description "No mention of attribute-based access control in documentation" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_security
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F3_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_4> ;
     ns2:value 2 ;
-    ns1:description "Quotas can be set on space available to users or on resources per query, but not at a user query level" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_config
+    ns3:description "Quotas can be set on space available to users or on resources per query, but not at a user query level" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_config
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_M1_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_1> ;
     ns2:value 1 ;
-    ns1:description "Open source edition available but with limited capability. Prices of licence editions high if used in collaborative environment" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_pricing
+    ns3:description "Open source edition available but with limited capability. Prices of licence editions high if used in collaborative environment" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_pricing
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_M1_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_2> ;
     ns2:value 2 ;
-    ns1:description "Open source edition under GPL V2" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_opensource_licence
+    ns3:description "Open source edition under GPL V2" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_opensource_licence
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_M3_3> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_3> ;
     ns2:value 5 ;
-    ns1:description "Last update of open source edition a few weeks ago" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_github
+    ns3:description "Last update of open source edition a few weeks ago" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_github
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_M3_4> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_4> ;
     ns2:value 5 ;
-    ns1:description "Last update of open source edition a few weeks ago" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_github
+    ns3:description "Last update of open source edition a few weeks ago" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_github
 > .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_P4_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
     ns2:value 3 ;
-    ns1:description "Transactions are supported, but unclear how they apply to SPARQL operations" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_transactions
+    ns3:description "Transactions are supported, but unclear how they apply to SPARQL operations" ;
+    ns3:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns1:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_transactions
 > .
 
 
