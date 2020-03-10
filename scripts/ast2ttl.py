@@ -30,7 +30,7 @@ for line in lines:
             curi = URIRef(crit_base+la[0])
             comment = la[1]
             value = int(la[2])
-            buri = URIRef(bib_base+la[3])
+            buri = URIRef(bib_base+la[3].strip())
             as_uri = URIRef(base+ts+"_"+la[0])
             g.add((as_uri, RDF.type, URIRef(onto_base+"CriterionAssessment")))
             g.add((as_uri, URIRef(onto_base+"criterion"), curi))
