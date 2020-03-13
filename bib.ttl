@@ -211,9 +211,73 @@
 <http://datascienceinstitute.ie/asio/bib/morsey2011dbpedia> a ns1:BibliographicResource ;
     ns1:title "DBpedia SPARQL benchmark--performance assessment with real queries on real data" .
 
+<http://datascienceinstitute.ie/asio/bib/neo4j_access_control> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J access control" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_cluster_query> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J cluster query" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_constraints> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J constraints" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_documentation> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J documentation" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_encryption> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J data encryption" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_fulltextsearch> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J full text search" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_graphaware> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J GraphAware plugin" .
+
 <http://datascienceinstitute.ie/asio/bib/neo4j_homepage> a ns1:BibliographicResource ;
     ns1:source <https://test.com> ;
     ns1:title "Neo4J homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_import> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J data import" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_licencing> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J licencing" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_rdf> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J NSMTX RDF plugin" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_reasoning> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J reasoning" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_releases> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J releases" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_sparql> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J sparql support" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_spatial> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J spatial" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_transactions> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J transactions" .
+
+<http://datascienceinstitute.ie/asio/bib/neo4j_versions> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neo4J versions" .
 
 <http://datascienceinstitute.ie/asio/bib/rohloff2007evaluation> a ns1:BibliographicResource ;
     ns1:title "An evaluation of triple-store technologies for large data stores" .
