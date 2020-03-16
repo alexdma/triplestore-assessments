@@ -195,6 +195,181 @@
     ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction> .
 
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_1> ;
+    ns2:value 4 ;
+    ns1:description "Can deal with commmon serialisations" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_formats> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_2> ;
+    ns2:value 5 ;
+    ns1:description "SPARQL query and protocol compliant, with comments on level of compliance" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_sparqlc> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_3> ;
+    ns2:value 5 ;
+    ns1:description "SPARQL update provided" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_sparql> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_1> ;
+    ns2:value 3 ;
+    ns1:description "Full text search available with ElasticSearch, but integration with SPARQL unclear" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_fulltextsearch> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_10> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_10> ;
+    ns2:value 3 ;
+    ns1:description "Supports RDF4J" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_rdf4j> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_11> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_11> ;
+    ns2:value 3 ;
+    ns1:description "Supports Gremlin" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_gremlin> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_12> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_12> ;
+    ns2:value 0 ;
+    ns1:description "No mention of entity recognition in documentation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_guide> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_14> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_14> ;
+    ns2:value 2 ;
+    ns1:description "CSV for property graph is supported" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_formats> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_2> ;
+    ns2:value 0 ;
+    ns1:description "No mention of geospatial queries in documentation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_guide> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_3> ;
+    ns2:value 4 ;
+    ns1:description "Fully supports service clause, but no indication of performance impact" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_federated> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_4> ;
+    ns2:value 0 ;
+    ns1:description "No mention of automated federation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_federated> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_5> ;
+    ns2:value 0 ;
+    ns1:description "No mention of reasoning or inference in documentation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_guide> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_6> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_6> ;
+    ns2:value 0 ;
+    ns1:description "No mention of reasoning or inference in documentation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_guide> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_7> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_7> ;
+    ns2:value 0 ;
+    ns1:description "No mention of reasoning or inference in documentation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_guide> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_8> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_8> ;
+    ns2:value 0 ;
+    ns1:description "No mention of reasoning or inference in documentation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_guide> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F2_9> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_9> ;
+    ns2:value 0 ;
+    ns1:description "No mention of validation in documentation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_guide> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F3_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_1> ;
+    ns2:value 5 ;
+    ns1:description "Encryption options available" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_encrypt> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F3_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_2> ;
+    ns2:value 3 ;
+    ns1:description "Role-based access control available at database level" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_access> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F3_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_3> ;
+    ns2:value 0 ;
+    ns1:description "Attribute-based access control not mentioned in documentation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_access> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_F3_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F3_4> ;
+    ns2:value 0 ;
+    ns1:description "No customisable user quota mentioned in documentation" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_guide> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_M1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_1> ;
+    ns2:value 1 ;
+    ns1:description "Only available on the cloud, with hourly pricing and price for data transfer" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_pricing> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_M1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M1_2> ;
+    ns2:value 0 ;
+    ns1:description "Only cloud - no licence for distribution" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_pricing> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_M3_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_3> ;
+    ns2:value 5 ;
+    ns1:description "Last engine release a few days ago" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_releases> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_M3_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_4> ;
+    ns2:value 5 ;
+    ns1:description "Last engine release a few days ago" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_releases> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_P4_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
+    ns2:value 2 ;
+    ns1:description "Transactions mentioned, but unclear whether rollbacks are feasible" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_transactions> .
+
 <http://datascienceinstitute.ie/asio/assessments/apache_jena_F1_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_1> ;
     ns2:value 5 ;

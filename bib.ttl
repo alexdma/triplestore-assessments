@@ -303,6 +303,62 @@
     ns1:source <https://test.com> ;
     ns1:title "Neo4J versions" .
 
+<http://datascienceinstitute.ie/asio/bib/neptune_access> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune access control" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_encrypt> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune Encryption" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_federated> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune Federated Queries" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_formats> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune formats" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_fulltextsearch> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Amazon Neptune full-text search" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_gremlin> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune Gremlin" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_guide> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Amazon Neptune use guide" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Amazon Neptune Homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_pricing> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune Pricing" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_rdf4j> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune RDF4J" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_releases> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune releases" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_sparql> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune SPARQL" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_sparqlc> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune Sparql compliance" .
+
+<http://datascienceinstitute.ie/asio/bib/neptune_transactions> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Neptune Transactions" .
+
 <http://datascienceinstitute.ie/asio/bib/rohloff2007evaluation> a ns1:BibliographicResource ;
     ns1:title "An evaluation of triple-store technologies for large data stores" .
 
