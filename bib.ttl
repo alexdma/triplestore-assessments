@@ -136,9 +136,33 @@
     ns1:source <https://test.com> ;
     ns1:title "BrightStarDB homapage" .
 
+<http://datascienceinstitute.ie/asio/bib/corese_api> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Corese API" .
+
+<http://datascienceinstitute.ie/asio/bib/corese_dqp> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Corese distributed query process" .
+
+<http://datascienceinstitute.ie/asio/bib/corese_encryption> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Corese encryption" .
+
+<http://datascienceinstitute.ie/asio/bib/corese_entailments> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Corese entailments" .
+
+<http://datascienceinstitute.ie/asio/bib/corese_github> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Corese github" .
+
 <http://datascienceinstitute.ie/asio/bib/corese_homepage> a ns1:BibliographicResource ;
     ns1:source <https://test.com> ;
     ns1:title "Corese Homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/corese_neo4j> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Corse Neo4J mapping" .
 
 <http://datascienceinstitute.ie/asio/bib/ibm_db2_homepage> a ns1:BibliographicResource ;
     ns1:source <https://test.com> ;
@@ -281,6 +305,10 @@
 
 <http://datascienceinstitute.ie/asio/bib/rohloff2007evaluation> a ns1:BibliographicResource ;
     ns1:title "An evaluation of triple-store technologies for large data stores" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_homepage> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "stardog homepage" .
 
 <http://datascienceinstitute.ie/asio/bib/virtuoso_bulk_loading> a ns1:BibliographicResource ;
     ns1:source <https://test.com> ;
