@@ -306,9 +306,61 @@
 <http://datascienceinstitute.ie/asio/bib/rohloff2007evaluation> a ns1:BibliographicResource ;
     ns1:title "An evaluation of triple-store technologies for large data stores" .
 
+<http://datascienceinstitute.ie/asio/bib/stardog_constraints> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog constraints" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_data_add> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog data add" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_data_uni> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog data unification" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_encryption> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog encryption" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_entity_ex> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog entity extraction" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_federated> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog federated query" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_geo> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog geo" .
+
 <http://datascienceinstitute.ie/asio/bib/stardog_homepage> a ns1:BibliographicResource ;
     ns1:source <https://test.com> ;
     ns1:title "stardog homepage" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_manual> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog Manual" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_pricing> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog pricing" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_reasoning> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog reasoning" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_releases> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog releases" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_search> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog search" .
+
+<http://datascienceinstitute.ie/asio/bib/stardog_security> a ns1:BibliographicResource ;
+    ns1:source <https://test.com> ;
+    ns1:title "Stardog security" .
 
 <http://datascienceinstitute.ie/asio/bib/virtuoso_bulk_loading> a ns1:BibliographicResource ;
     ns1:source <https://test.com> ;
