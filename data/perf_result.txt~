@@ -1,0 +1,13 @@
+
+
+# Loading time:
+
+Virtuoso: 30 to 37 KT/s for 1GT (virtuoso_lubm)
+
+# Query response time
+
+
+@misc{virtuoso_lubm,
+title={Virtuoso benchmarking LUBM},
+url={http://vos.openlinksw.com/owiki/wiki/VOS/VOSArticleLUBMBenchmark}
+}
