@@ -153,45 +153,59 @@
     ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_change_history> .
 
+<http://datascienceinstitute.ie/asio/assessments/allegrograph_P1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_1> ;
+    ns2:value 4 ;
+    ns1:description "Assumes good performance on 10M triples, based on results with at 1B" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/allegrograph_P1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_2> ;
+    ns2:value 4 ;
+    ns1:description "Assumes good performance on 100K triples, based on results with at 1B" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/allegrograph_P1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_3> ;
+    ns2:value 4 ;
+    ns1:description "Assumes good performance on 1M triples, based on results with at 1B" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/allegrograph_P1_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_4> ;
+    ns2:value 4 ;
+    ns1:description "Assumes good performance on 10M triples, based on results with at 1B" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/allegrograph_P1_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_5> ;
+    ns2:value 5 ;
+    ns1:description "Assumes high performance on 100M triples, based on results with at 1B" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_P1_6> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_6> ;
-    ns2:value 3 ;
-    ns1:description "Reasonable results with LUBM" ;
+    ns2:value 5 ;
+    ns1:description "Ranks highly on LUBM benchmark with 1B triples" ;
     ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_benchmark_LUBM> .
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_analyses> .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_P2_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P2_1> ;
-    ns2:value 2 ;
-    ns1:description "Several minutes for loading a few millions triples" ;
+    ns2:value 5 ;
+    ns1:description "Over 100KT/s batch loading triples" ;
     ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning> .
-
-<http://datascienceinstitute.ie/asio/assessments/allegrograph_P3_3> a ns2:CriterionAssessment ;
-    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P3_3> ;
-    ns2:value 2 ;
-    ns1:description "Between half a GB to 3.6GB with datasets of 7M and 44M triples" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning> .
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
 
 <http://datascienceinstitute.ie/asio/assessments/allegrograph_P4_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
     ns2:value 5 ;
     ns1:description "ACID transactions with rollback provided" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction> .
-
-<http://datascienceinstitute.ie/asio/assessments/allegrograph_P4_3> a ns2:CriterionAssessment ;
-    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_3> ;
-    ns2:value 2 ;
-    ns1:description "Limited capability to scale vertically" ;
-    ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
-    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_performance_tuning> .
-
-<http://datascienceinstitute.ie/asio/assessments/allegrograph_P4_4> a ns2:CriterionAssessment ;
-    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_4> ;
-    ns2:value 4 ;
-    ns1:description "Ability to federate multiple stores" ;
     ns1:subject <http://data.datascienceinstitute.ie/software/allegrograph> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/allegrograph_introduction> .
 
@@ -363,6 +377,55 @@
     ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neptune_releases> .
 
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_P1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_1> ;
+    ns2:value 4 ;
+    ns1:description "Assumed OK on 10K triples based on limited results and own experience" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_P1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_2> ;
+    ns2:value 4 ;
+    ns1:description "Assumed OK on 100K triples based on limited results and own experience" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_P1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_3> ;
+    ns2:value 3 ;
+    ns1:description "Not great on 1M triples based on limited results known for predecessor (Blazegraph)" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_P1_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_4> ;
+    ns2:value 3 ;
+    ns1:description "Not great on 10M triples based on limited results known for predecessor (Blazegraph)" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_P1_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_5> ;
+    ns2:value 2 ;
+    ns1:description "Rather poor on 100MT based on limited results available for predecessor (Blazegraph)" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_P1_6> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_6> ;
+    ns2:value 1 ;
+    ns1:description "Assumed poor on 1BT based on limited results available for predecessor (Blazegraph)" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/amazon_neptune_P2_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P2_1> ;
+    ns2:value 4 ;
+    ns1:description "Assumed good based on results available for predecessor (Blazegraph)" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/amazon_neptune> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
 <http://datascienceinstitute.ie/asio/assessments/amazon_neptune_P4_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
     ns2:value 2 ;
@@ -523,6 +586,55 @@
     ns1:description "Updated a few days ago" ;
     ns1:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/jena_github> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_P1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_1> ;
+    ns2:value 4 ;
+    ns1:description "Generally OK with 10K triples" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_P1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_2> ;
+    ns2:value 4 ;
+    ns1:description "Generally OK with 100K triples" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_P1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_3> ;
+    ns2:value 3 ;
+    ns1:description "Start slowing down at 1M triples" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_P1_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_4> ;
+    ns2:value 2 ;
+    ns1:description "Difficulties with 10M triples" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_P1_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_5> ;
+    ns2:value 1 ;
+    ns1:description "Much difficulties with 100M triples" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_P1_6> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_6> ;
+    ns2:value 1 ;
+    ns1:description "Much difficulties with 1B triples" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/apache_jena_P2_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P2_1> ;
+    ns2:value 2 ;
+    ns1:description "Results show Jena to be slow at loading (less than 20KT/s)" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/apache_jena> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
 
 <http://datascienceinstitute.ie/asio/assessments/apache_jena_P4_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
@@ -685,6 +797,55 @@
     ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/blazegraph_github> .
 
+<http://datascienceinstitute.ie/asio/assessments/blazegraph_P1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_1> ;
+    ns2:value 4 ;
+    ns1:description "Assumed OK on 10K triples based on limited results and own experience" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/blazegraph_P1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_2> ;
+    ns2:value 4 ;
+    ns1:description "Assumed OK on 100K triples based on limited results and own experience" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/blazegraph_P1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_3> ;
+    ns2:value 3 ;
+    ns1:description "Not great on 1M triples based on limited results known" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/blazegraph_P1_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_4> ;
+    ns2:value 3 ;
+    ns1:description "Not great on 10M triples based on limited results known" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/blazegraph_P1_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_5> ;
+    ns2:value 2 ;
+    ns1:description "Rather poor on 100MT based on limited results available" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/blazegraph_P1_6> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_6> ;
+    ns2:value 1 ;
+    ns1:description "Assumed poor on 1BT based on limited results available" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/blazegraph_P2_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P2_1> ;
+    ns2:value 4 ;
+    ns1:description "Good based on results available (~100KT/s)" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/blazegraph> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
 <http://datascienceinstitute.ie/asio/assessments/blazegraph_P4_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
     ns2:value 3 ;
@@ -716,7 +877,7 @@
 <http://datascienceinstitute.ie/asio/assessments/corese_F2_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F2_1> ;
     ns2:value 1 ;
-    ns1:description "Hompage mentions approximate search, but it appears to mean something different" ;
+    ns1:description "Homepage mentions approximate search, but it appears to mean something different" ;
     ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/corese_homepage> .
 
@@ -857,6 +1018,62 @@
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/M3_4> ;
     ns2:value 5 ;
     ns1:description "Last commit a few days ago" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/corese_github> .
+
+<http://datascienceinstitute.ie/asio/assessments/corese_P1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_1> ;
+    ns2:value 3 ;
+    ns1:description "No result available, assumed reasonable at 10KT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/corese_P1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_2> ;
+    ns2:value 3 ;
+    ns1:description "No result available, assumed reasonable at 100KT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/corese_P1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_3> ;
+    ns2:value 2 ;
+    ns1:description "No result available, assumed not great at 1MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/corese_P1_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_4> ;
+    ns2:value 1 ;
+    ns1:description "No result available, assumed bad at 10MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/corese_P1_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_5> ;
+    ns2:value 1 ;
+    ns1:description "No result available, assumed bad at 100MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/corese_P1_6> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_6> ;
+    ns2:value 1 ;
+    ns1:description "No result available, assumed bad at 1B" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/corese_p2_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/p2_1> ;
+    ns2:value 2 ;
+    ns1:description "No results availanle, assumed not so good for batch loading" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/corese_p4_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/p4_2> ;
+    ns2:value 0 ;
+    ns1:description "No mention of transactions in documentation" ;
     ns1:subject <http://data.datascienceinstitute.ie/software/corese> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/corese_github> .
 
@@ -1013,6 +1230,48 @@
     ns1:description "Last release a few days ago" ;
     ns1:subject <http://data.datascienceinstitute.ie/software/neo4j> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/neo4j_releases> .
+
+<http://datascienceinstitute.ie/asio/assessments/neo4j_P1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_1> ;
+    ns2:value 3 ;
+    ns1:description "No result available, assumed reasonable at 10KT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/neo4j> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/neo4j_P1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_2> ;
+    ns2:value 3 ;
+    ns1:description "No result available, assumed reasonable at 100KT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/neo4j> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/neo4j_P1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_3> ;
+    ns2:value 2 ;
+    ns1:description "No result available, assumed not great at 1MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/neo4j> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/neo4j_P1_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_4> ;
+    ns2:value 1 ;
+    ns1:description "No result available, assumed bad at 10MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/neo4j> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/neo4j_P1_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_5> ;
+    ns2:value 1 ;
+    ns1:description "No result available, assumed bad at 100MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/neo4j> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/neo4j_P1_6> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_6> ;
+    ns2:value 1 ;
+    ns1:description "No result available, assumed bad at 1B" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/neo4j> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
 
 <http://datascienceinstitute.ie/asio/assessments/neo4j_P4_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
@@ -1189,6 +1448,62 @@
     ns1:subject <http://data.datascienceinstitute.ie/software/stardog> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/stardog_releases> .
 
+<http://datascienceinstitute.ie/asio/assessments/stardog_P1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_1> ;
+    ns2:value 5 ;
+    ns1:description "Assumed very good results for 10KT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/stardog> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/stardog_P1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_2> ;
+    ns2:value 5 ;
+    ns1:description "Assumed very good results for 100KT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/stardog> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/stardog_P1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_3> ;
+    ns2:value 4 ;
+    ns1:description "Assumed good results for 1MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/stardog> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/stardog_P1_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_4> ;
+    ns2:value 4 ;
+    ns1:description "Good results for 10MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/stardog> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/stardog_P1_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_5> ;
+    ns2:value 4 ;
+    ns1:description "Good results for 100MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/stardog> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/stardog_P1_6> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_6> ;
+    ns2:value 4 ;
+    ns1:description "Good results for 1BT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/stardog> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/stardog_P2_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P2_1> ;
+    ns2:value 5 ;
+    ns1:description "Very good based on results available (more than 100KT/s)" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/stardog> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/stardog_P4_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;
+    ns2:value 4 ;
+    ns1:description "Supports ACID transactions" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/stardog> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/stardog_transactions> .
+
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_F1_1> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/F1_1> ;
     ns2:value 5 ;
@@ -1335,6 +1650,55 @@
     ns1:description "Last update of open source edition a few weeks ago" ;
     ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
     ns3:primarySource <http://datascienceinstitute.ie/asio/bib/virtuoso_github> .
+
+<http://datascienceinstitute.ie/asio/assessments/virtuoso_P1_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_1> ;
+    ns2:value 5 ;
+    ns1:description "Assumed very good results on 10KT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/virtuoso_P1_2> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_2> ;
+    ns2:value 5 ;
+    ns1:description "Assumed very good results on 100KT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/virtuoso_P1_3> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_3> ;
+    ns2:value 5 ;
+    ns1:description "Very good results on MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/virtuoso_P1_4> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_4> ;
+    ns2:value 5 ;
+    ns1:description "Very good results on 10MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/virtuoso_P1_5> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_5> ;
+    ns2:value 5 ;
+    ns1:description "Very good results on 100MT" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/virtuoso_P1_6> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P1_6> ;
+    ns2:value 4 ;
+    ns1:description "Assumed good results on 1B" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
+
+<http://datascienceinstitute.ie/asio/assessments/virtuoso_P2_1> a ns2:CriterionAssessment ;
+    ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P2_1> ;
+    ns2:value 3 ;
+    ns1:description "OK according to published results (less than 50KT/s)" ;
+    ns1:subject <http://data.datascienceinstitute.ie/software/virtuoso> ;
+    ns3:primarySource <http://datascienceinstitute.ie/asio/bib/perf_summary> .
 
 <http://datascienceinstitute.ie/asio/assessments/virtuoso_P4_2> a ns2:CriterionAssessment ;
     ns2:criterion <http://datascienceinstitute.ie/asio/criteria/P4_2> ;

@@ -152,7 +152,7 @@ url={https://jena.apache.org/documentation/sdb/query_performance.html}
 }
 
 @misc{bench1,
-title={Benchmark 1}
+title={Benchmark 1},
 url={file:///home/mdaquin/Downloads/2463676.2463718.pdf}
 }
 

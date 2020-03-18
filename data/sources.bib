@@ -8,8 +8,26 @@ title={AllegroGraph Homepage},
 url={https://franz.com/agraph/allegrograph/}
 }
 
+P1_6::Ranks highly on LUBM benchmark with 1B triples::5::perf_analyses
+
+@misc{perf_analyses,
+title={Meta-analysis of performance benchmark results},
+url={perf_summary.md}
+}
+
+P1_5::Assumes high performance on 100M triples, based on results with at 1B::5::perf_summary
+
+P1_4::Assumes good performance on 10M triples, based on results with at 1B::4::perf_summary
+
+P1_3::Assumes good performance on 1M triples, based on results with at 1B::4::perf_summary
+
+P1_2::Assumes good performance on 100K triples, based on results with at 1B::4::perf_summary
+
+P1_1::Assumes good performance on 10M triples, based on results with at 1B::4::perf_summary
 
 F1_1::Loads RDF in various serialisations::5::allegrograph_load_doc
+
+P2_1::Over 100KT/s batch loading triples::5::perf_summary
 
 @misc{allegrograph_load_doc,
 title={AllegroGraph Documentation on Imporing Datat},
@@ -105,22 +123,12 @@ title={AllegroGraph Performance Tuning},
 url={https://franz.com/agraph/allegrograph/agraph_performance_tuning.lhtml}
 }
 
-P1_6::Reasonable results with LUBM::3::allegrograph_benchmark_LUBM
-
 @misc{allegrograph_benchmark_LUBM,
 title={AllegroGraph Benchmark Lubm},
 url={https://franz.com/agraph/allegrograph/agraph_bench_lubm.lhtml}
 }
 
-P2_1::Several minutes for loading a few millions triples::2::allegrograph_performance_tuning
-
-P3_3::Between half a GB to 3.6GB with datasets of 7M and 44M triples::2::allegrograph_performance_tuning
-
 P4_2::ACID transactions with rollback provided::5::allegrograph_introduction
-
-P4_3::Limited capability to scale vertically::2::allegrograph_performance_tuning
-
-P4_4::Ability to federate multiple stores::4::allegrograph_introduction
 
 M1_1::Free for under 5M triples::3::allegrograph_comercial_edition
 
@@ -160,6 +168,20 @@ homepage::neptune_homepage
 title={Amazon Neptune Homepage},
 url={https://aws.amazon.com/neptune/}
 }
+
+P1_1::Assumed OK on 10K triples based on limited results and own experience::4::perf_summary
+
+P1_2::Assumed OK on 100K triples based on limited results and own experience::4::perf_summary
+
+P1_3::Not great on 1M triples based on limited results known for predecessor (Blazegraph)::3::perf_summary
+
+P1_4::Not great on 10M triples based on limited results known for predecessor (Blazegraph)::3::perf_summary
+
+P1_5::Rather poor on 100MT based on limited results available for predecessor (Blazegraph)::2::perf_summary
+
+P1_6::Assumed poor on 1BT based on limited results available for predecessor (Blazegraph)::1::perf_summary
+
+P2_1::Assumed good based on results available for predecessor (Blazegraph)::4::perf_summary
 
 F1_1::Can deal with commmon serialisations::4::neptune_formats
 
@@ -285,6 +307,20 @@ homepage::jena_homepage
 title={Jena Homepage},
 url={https://jena.apache.org/}
 }
+
+P1_1::Generally OK with 10K triples::4::perf_summary
+
+P1_2::Generally OK with 100K triples::4::perf_summary
+
+P1_3::Start slowing down at 1M triples::3::perf_summary
+
+P1_4::Difficulties with 10M triples::2::perf_summary
+
+P1_5::Much difficulties with 100M triples::1::perf_summary
+
+P1_6::Much difficulties with 1B triples::1::perf_summary
+
+P2_1::Results show Jena to be slow at loading (less than 20KT/s)::2::perf_summary
 
 F1_1::Supports a large number of serialisations::5::jena_reading_writing
 
@@ -417,6 +453,21 @@ title={Blazegraph homepage},
 url={https://blazegraph.com/}
 }
 
+P1_1::Assumed OK on 10K triples based on limited results and own experience::4::perf_summary
+
+P1_2::Assumed OK on 100K triples based on limited results and own experience::4::perf_summary
+
+P1_3::Not great on 1M triples based on limited results known::3::perf_summary
+
+P1_4::Not great on 10M triples based on limited results known::3::perf_summary
+
+P1_5::Rather poor on 100MT based on limited results available::2::perf_summary
+
+P1_6::Assumed poor on 1BT based on limited results available::1::perf_summary
+
+P2_1::Good based on results available (~100KT/s)::4::perf_summary
+
+
 F1_1::Supports many forms of RDF::5::blazegraph_rest_api
 
 @misc{blazegraph_res_api,
@@ -542,6 +593,20 @@ title={stardog homepage},
 url={https://www.stardog.com/}
 }
 
+P1_1::Assumed very good results for 10KT::5::perf_summary
+
+P1_2::Assumed very good results for 100KT::5::perf_summary
+
+P1_3::Assumed good results for 1MT::4::perf_summary
+
+P1_4::Good results for 10MT::4::perf_summary
+
+P1_5::Good results for 100MT::4::perf_summary
+
+P1_6::Good results for 1BT::4::perf_summary
+
+P2_1::Very good based on results available (more than 100KT/s)::5::perf_summary
+
 F1_1::Can import data in a variety of formats::5::stardog_data_add
 
 @misc{stardog_data_add,
@@ -638,6 +703,13 @@ F3_3::Attribute-based access control not mentioned::0::stardog_security
 
 F3_4::quotas not mentioned in documentation::0::stardog_manual
 
+P4_2::Supports ACID transactions::4::stardog_transactions
+
+@misc{stardog_transactions,
+title={Stardog ACID transactions},
+url={https://www.stardog.com/docs/#_acid_transactions}
+}
+
 M1_1::Only free for 60 days, then prince unclear::1::stardog_pricing
 
 M1_2::Proprietary licence, terms unclear::0::stardog_pricing
@@ -664,6 +736,21 @@ homepage::virtuoso_homepage
 title={Virtuoso homepage},
 url={https://virtuoso.openlinksw.com/}
 }
+
+
+P1_1::Assumed very good results on 10KT::5::perf_summary
+
+P1_2::Assumed very good results on 100KT::5::perf_summary
+
+P1_3::Very good results on MT::5::perf_summary
+
+P1_4::Very good results on 10MT::5::perf_summary
+
+P1_5::Very good results on 100MT::5::perf_summary
+
+P1_6::Assumed good results on 1B::4::perf_summary
+
+P2_1::OK according to published results (less than 50KT/s)::3::perf_summary
 
 F1_1::Can load various serialisations of RDF::5::virtuoso_bulk_loading
 
@@ -834,6 +921,21 @@ title={Corese Homepage},
 url = {https://project.inria.fr/corese/}
 }
 
+
+P1_1::No result available, assumed reasonable at 10KT::3::perf_summary
+
+P1_2::No result available, assumed reasonable at 100KT::3::perf_summary
+
+P1_3::No result available, assumed not great at 1MT::2::perf_summary
+
+P1_4::No result available, assumed bad at 10MT::1::perf_summary
+
+P1_5::No result available, assumed bad at 100MT::1::perf_summary
+
+P1_6::No result available, assumed bad at 1B::1::perf_summary
+
+p2_1::No results availanle, assumed not so good for batch loading::2::perf_summary
+
 F1_1::Can load and serve API, but unclear about compliance and which seriaslisations::3::corese_api
 
 @misc{corese_api,
@@ -845,7 +947,7 @@ F1_2::Homepage mentions SPARQL 1.1. but without much details::4::corese_homepage
 
 F1_3::Homepage mentions SPARQL update but without much details::4::corese_homepage
 
-F2_1::Hompage mentions approximate search, but it appears to mean something different::1::corese_homepage
+F2_1::Homepage mentions approximate search, but it appears to mean something different::1::corese_homepage
 
 F2_2::No mention of GeoSparql in documentation::0::corese_homepage
 
@@ -904,6 +1006,8 @@ F3_3::No mention of access control in documentation::0::corese_github
 
 F3_4::No mention of usage quota in documentation::0::corese_github
 
+p4_2::No mention of transactions in documentation::0::corese_github
+
 M1_1::Free and open source::5::corese_github
 
 M1_2::French equivalent to LGPL::4::corese_github
@@ -929,6 +1033,19 @@ homepage::neo4j_homepage
 title={Neo4J homepage},
 url={https://neo4j.com/}
 }
+
+
+P1_1::No result available, assumed reasonable at 10KT::3::perf_summary
+
+P1_2::No result available, assumed reasonable at 100KT::3::perf_summary
+
+P1_3::No result available, assumed not great at 1MT::2::perf_summary
+
+P1_4::No result available, assumed bad at 10MT::1::perf_summary
+
+P1_5::No result available, assumed bad at 100MT::1::perf_summary
+
+P1_6::No result available, assumed bad at 1B::1::perf_summary
 
 F1_1::Through additional plugin::4::neo4j_rdf
 
