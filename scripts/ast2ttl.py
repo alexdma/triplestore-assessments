@@ -10,7 +10,7 @@ g = Graph()
     
 base      = 'http://datascienceinstitute.ie/asio/assessments/'
 crit_base = 'http://datascienceinstitute.ie/asio/criteria/'
-bib_base  = 'http://datascienceinstitute.ie/asio/bib/'
+bib_base  = 'http://data.datascienceinstitute.ie/asio/bib/'
 ts_base   = 'http://data.datascienceinstitute.ie/software/'
 onto_base = 'http://datascienceinstitute.ie/asio/schema#' 
 

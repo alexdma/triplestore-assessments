@@ -9,7 +9,7 @@ if len(sys.argv) != 2:
     quit()
 
 g = Graph()
-base = 'http://datascienceinstitute.ie/asio/bib/'
+base = 'http://data.datascienceinstitute.ie/asio/bib/'
     
 filename = sys.argv[1]
 
