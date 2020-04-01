@@ -8,10 +8,10 @@ if len(sys.argv) != 2:
 
 g = Graph()
     
-base      = 'http://datascienceinstitute.ie/asio/assessments/'
+base      = 'http://data.datascienceinstitute.ie/asio/assessments/'
 crit_base = 'http://datascienceinstitute.ie/asio/criteria/'
-bib_base  = 'http://datascienceinstitute.ie/asio/bib/'
-ts_base   = 'http://data.datascienceinstitute.ie/software/'
+bib_base  = 'http://data.datascienceinstitute.ie/asio/bib/'
+ts_base   = 'http://data.data.datascienceinstitute.ie/software/'
 onto_base = 'http://datascienceinstitute.ie/asio/schema#' 
 
 filename = sys.argv[1]
