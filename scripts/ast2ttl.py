@@ -11,7 +11,7 @@ g = Graph()
 base      = 'http://data.datascienceinstitute.ie/asio/assessments/'
 crit_base = 'http://datascienceinstitute.ie/asio/criteria/'
 bib_base  = 'http://data.datascienceinstitute.ie/asio/bib/'
-ts_base   = 'http://data.data.datascienceinstitute.ie/software/'
+ts_base   = 'http://data.datascienceinstitute.ie/software/'
 onto_base = 'http://datascienceinstitute.ie/asio/schema#' 
 
 filename = sys.argv[1]
@@ -39,5 +39,5 @@ for line in lines:
             g.add((as_uri, URIRef(onto_base+"value"), Literal(value)))
             g.add((as_uri, URIRef('http://www.w3.org/ns/prov#primarySource'), buri))
 
-print( g.serialize(format='ttl') )
+print( g.serialize(format='ttl').decode('utf-8') )
 
