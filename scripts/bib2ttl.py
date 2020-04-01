@@ -26,7 +26,7 @@ for key in bib_data.entries:
         sys.stderr.write("error: no title in "+key+"\n")
         quit()
     if "url" in fields:
-        g.add((uri, DC.source, URIRef("https://test.com")))
+        g.add((uri, DC.source, URIRef(fields["url"])))
     else:
         sys.stderr.write("warning: no url in "+key+"\n")
 
